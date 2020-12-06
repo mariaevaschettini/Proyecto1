@@ -37,6 +37,16 @@ aside h3 {
 aside section{
   padding-bottom: 1.5em;
 }
+.fas{
+  float: left;
+  padding-left: 50px;
+}
+.fab{
+  float: left;
+}
+.far{
+  float: left;
+}
 
 /**_____________Main_____________*/
 
