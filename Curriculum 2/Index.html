@@ -1,6 +1,6 @@
 <DOCTYPE! html />
 <!-- Todas las etiquetas se cierran con barra por buenas practicas -->
-<html lang="en">
+<html lang="en" />
 <!-- charset utf 8 es el formato que permite agregar caracteres especiales al texto. tengo que agregarlo antes de cualquier linea de texto como title. Para que no haya problemas el archivo se tiene que guardar ademas con ese formato. Averiguar como se hace en windows -->
 
 <head>
@@ -10,10 +10,11 @@
   <!-- metadatos para Seo. palabras clave y descripcion -->
   <meta name="keywords" content="Curriculum Vitae, Maria Eva Schettini, profesora de musica, docente, enseñanza" />
   <meta name="description" content="Curriculum Vitae. Profesora de Música. María Eva Schettini" />
-  <link href="F:\Proyectos Dev\GIT\Proyecto1\Curriculum 2\Css\normalize.css" type="text/css"/>
-  <link rel="stylesheet" href="F:\Proyectos Dev\GIT\Proyecto1\Curriculum 2\Css\Styles.css" type="text/css"/>
+  <link href="Css\normalize.css" type="text/css"/>
+  <link rel="stylesheet" href="Css\Styles.css" type="text/css"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fdca6ccc16.js" crossorigin="anonymous"></script>
   <title>Curriculum Vitae</title>
 </head>
 
@@ -25,63 +26,64 @@
         <figure>
           <img src="Eva.png" alt="María Eva Schettini" />
         </figure>
-        <h3>CONOCIMIENTOS</h3>
+        <h3>PERSONAL DETAILS</h3>
         <dl>
-          <dt>Nacimiento</dt>
-          <dd>28 de junio de 1990</dd>
-          <dt>Nacionalidad</dt>
-          <dd>Argentina</dd>
-          <dt>Estado Civil</dt>
-          <dd>Soltera</dd>
+          <dt>DATE OF BIRTH</dt>
+          <dd>14th April 1990</dd>
+          <dt>NACIONALITY</dt>
+          <dd>Australian</dd>
+          <dt>ESTATE OF MARRIEGE</dt>
+          <dd>Single</dd>
         </dl>
       </section>
       <!-- si le saco todo el estilo y la reconozco como algo independiente es una seccion. Para diferenciar una parte solo con estilos se usa div -->
       <section>
-        <h3>FORMACION</h3>
+        <h3>EDUCATION</h3>
         <ul>
           <li>
             <!-- etiqueta span permite individualizar un texto como elemento y modificarlo despues con negrita por ejemplo. si uso p y br no se puede porque es un todo -->
-            <span>Colegio Paula Montal.</span>
-            <span>Bachiller en Ciencias Humanas. </span>
+            <span>ENTER YOUR DEGREE</span><br>
+            <span>University </span>
             <span>2003-2007</span>
           </li>
           <li>
-            <span>Título jjkgdfhjjjjjjhggg</span>
-            <span>Institucion jhdddhkiugfdkklkgfdf </span>
-            <span>2003-2007</span>
+            <span>ENTER YOUR DEGREE</span><br>
+            <span>University </span>
+            <span>2008-2012</span>
           </li>
           <li>
-            <span>Colegio Paula Montal.</span>
-            <span>Bachiller en Ciencias Humanas. </span>
-            <span>2003-2007</span>
+            <span>ENTER YOUR DEGREE.</span><br>
+            <span>University </span>
+            <span>2013-2015</span>
           </li>
         </ul>
       </section>
       <section>
-        <h3>HABILIDADES PERSONALES</h3>
+        <h3>PERSONAL SKILLS</h3>
         <ul>
-          <li>hjjhg</li>
-          <li>hjkkk</li>
-          <li>hjkjjjj</li>
-          <li>jkjgghhh</li>
+          <li>CREATIVITY</li>
+          <li>ORGANIZATION</li>
+          <li>TEAM PLAY</li>
+          <li>TRANNING</li>
         </ul>
       </section>
       <section>
-        <h3>HABILIDADES TECNICAS</h3>
+        <h3>TECNICAL SKILLS</h3>
         <ul>
-          <li>hjjhg</li>
-          <li>hjkkk</li>
-          <li>hjkjjjj</li>
-          <li>jkjgghhh</li>
+          <li>PHOTOSHOP</li>
+          <li>ILLUSTRATOR</li>
+          <li>POWER POINT</li>
+          <li>COREL DRAW</li>
         </ul>
       </section>
       <section>
-        <h3>REFERENCIAS</h3>
+        <h3>CONTACTS</h3>
         <ul>
-          <li>hjjhg</li>
-          <li>hjkkk</li>
-          <li>hjkjjjj</li>
-          <li>jkjgghhh</li>
+          <i class="fas fa-map-marker-alt"></i><li>Adress</li>
+          <i class="fas fa-phone-square-alt"></i><li>123 456 7000</li>
+          <i class="far fa-envelope"></i><li>mail@gmail.com</li>
+          <i class="fab fa-facebook-square"></i><li>Facebook</li>
+          <i class="fab fa-linkedin"></i><li>Linkedin</li>
         </ul>
       </section>
     </aside>
@@ -89,71 +91,71 @@
   <div class="secondary-container">
     <main>
       <section id="central-name">
-        <h1>MARIA EVA SCHETTINI</h1>
-        <h2>PROFESORA</h2>
+        <h1>AMY JONES</h1>
+        <h2>PHOTOGRAPHER</h2>
       </section>
       <section>
-        <h3>SOBRE MI</h3>
+        <h3>ABOUT ME</h3>
         <p class="background">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nihil, architecto id
           eum? Repudiandae voluptatibus odit provident accusantium voluptatum cupiditate. Accusantium, dicta inventore
-          est. Harum modi vel aperiam culpa ea.</p>
+          est. Harum modi vel aperiam culpa ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur inventore fugit maiores molestias eius veniam tempore aliquam officiis assumenda?</p>
       </section>
       <section>
-        <h3>EXPERIENCIA</h3>
+        <h3>EXPERIENCE</h3>
         <!-- article es como un item  con titulo, subtitulo, etc. buscar diferencia con seccion y div -->
         <article>
-          <h3>PUESTO DE TRABAJO</h3>
-          <h4>Empresa/ Ubicación/Años</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!</p>
+          <h3>JOB POSITION</h3>
+          <h4>Company/ Location/Years</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci impedit labore blanditiis rerum beatae at temporibus</p>
         </article>
         <article>
-          <h3>PUESTO DE TRABAJO</h3>
-          <h4>Empresa/ Ubicación/Años</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!</p>
+          <h3>JOB POSITION</h3>
+          <h4>Company/ Location/Years</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat suscipit libero iusto recusandae magni.</p>
         </article>
         <article>
-          <h3>PUESTO DE TRABAJO</h3>
-          <h4>Empresa/ Ubicación/Años</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!</p>
+          <h3>JOB POSITION</h3>
+          <h4>Company/ Location/Years</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt vitae adipisci expedita temporibus totam facere.</p>
         </article>
         <article>
-          <h3>PUESTO DE TRABAJO</h3>
-          <h4>Empresa/ Ubicación/Años</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D!</p>
+          <h3>JOB POSITION</h3>
+          <h4>Company/ Location/Years</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ad tempora, dicta dignissimos dolorem facilis.</p>
         </article>
       </section>
-      <section>
-        <h3 class="background">REFERENCIAS</h3>
+      <section class="background">
+        <h3>REFERENCES</h3>
         <article>
           <figure>
             <img class="contacts" src="Contactos.png" alt="" />
-            <figcaption>Referencia</figcaption>
+            <figcaption>References</figcaption>
             <!-- con span aparece todo en el mismo renglon como lo separo? con br? -->
-            <span>kakdjf@kwjdf.com</span>
+            <span>kakdjf@kwjdf.com</span><br>
             <span>818364</span>
           </figure>
         </article>
         <article>
           <figure>
             <img class="contacts" src="Contactos.png" alt="" />
-            <figcaption>Referencia</figcaption>
-            <span>kajdhf@kajdg.com</span>
+            <figcaption>References</figcaption>
+            <span>kajdhf@kajdg.com</span><br>
             <span>928464749</span>
           </figure>
         </article>
         <article>
           <figure>
             <img class="contacts" src="Contactos.png" alt="" />
-            <figcaption>Referencia</figcaption>
-            <span>kajsbdmdls@kahdd.com</span>
+            <figcaption>References</figcaption>
+            <span>kajsbdmdls@kahdd.com</span><br>
             <span>938372637492</span>
           </figure>
         </article>
         <article>
           <figure>
             <img class="contacts" src="Contactos.png" alt="" />
-            <figcaption>Referencia</figcaption>
-            <span>makdjdsj@kajdhd.com</span>
+            <figcaption>References</figcaption>
+            <span>makdjdsj@kajdhd.com</span><br>
             <span>38847593</span>
           </figure>
         </article>
