@@ -37,16 +37,6 @@ aside h3 {
 aside section{
   padding-bottom: 1.5em;
 }
-.fas{
-  float: left;
-  padding-left: 50px;
-}
-.fab{
-  float: left;
-}
-.far{
-  float: left;
-}
 
 /**_____________Main_____________*/
 
@@ -75,21 +65,10 @@ h2 {
   border-top: solid;
   padding-top: 10px;
 }
-.background {
- background-color: #FDF5E6;
- padding: 5px;
-}
 .contacts {
-  display: block;
   width: 5em;
   margin: auto;
   border-radius: 100%;
-}
-.background article:nth-child(2){
-  float: right;
-}
-.background article:nth-last-child(2){
-  float: right;
 }
 main section article p{
   padding-top: 20px;
@@ -98,4 +77,16 @@ main section article p{
 main h3{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.flex-container{
+  background-color: #FDF5E6;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container{
+  flex: 50%;
 }
