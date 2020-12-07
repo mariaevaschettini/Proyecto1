@@ -89,4 +89,6 @@ main h3{
 }
 .container{
   flex: 50%;
+  text-align: center;
+  padding-top: 40px;
 }
