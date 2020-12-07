@@ -10,7 +10,10 @@ ul {
 h3, h4 {
   letter-spacing: 3px;
 }
-
+.main{
+  display: flex;
+  flex-direction: row;
+}
 /**___________Aside_______________*/
 
 aside {
@@ -20,8 +23,8 @@ aside {
   margin-left: 1em;
 }
 .main-container {
-  width: 30%;
-  float: left;
+  flex-basis: 30%;
+  align-self: flex-start;
 }
 aside img{
   width: 15em;
@@ -37,16 +40,72 @@ aside h3 {
 aside section{
   padding-bottom: 1.5em;
 }
-
+dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+dt, dd{
+  border-top:2px solid #FFFFF0;
+  flex-basis: 50%;
+  margin: 0%;
+  font-size: 12px;
+}
+dt :last-of-type, dd :last-of-type{
+border-bottom: 2px solid #FFFFF0;
+}
+#contact-list li{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin: 0%;
+  text-align: center;
+  padding-top: 10%;
+}
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 10%;
+  padding-left: 15%;
+  font-size: 25px;
+}
+.adress::before{
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f3c5";
+}
+.telephone::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f87b";
+}
+.email::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+}
+.fb::before{
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f09a";
+}
+.linkedin::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f08c";
+  }
 /**_____________Main_____________*/
 
 main {
   color: #757575;
-  margin-right: 2em;
 }
 .secondary-container {
-  width: 65%;
-  float: right;
+  flex-basis: 65%;
+  align-self: flex-end;
+  margin-right: 2em;
 }
 #central-name {
   background-color: #d9b395;
